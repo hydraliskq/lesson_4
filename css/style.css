@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/AnyConv.com__Lato-Black.woff2") format(woff2), url("../fonts/Lato/AnyConv.com__Lato-Black.woff") format(woff);
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/AnyConv.com__Lato-Bold.woff2") format(woff2), url("../fonts/Lato/AnyConv.com__Lato-Bold.woff") format(woff);
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/AnyConv.com__Lato-Regular.woff2") format(woff2), url("../fonts/Lato/AnyConv.com__Lato-Regular.woff") format(woff);
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit/Larsseit-Bold.woff2") format(woff2), url("../fonts/Larsseit/Larsseit-Bold.woff") format(woff);
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit/Larsseit-ExtraBold.woff2") format(woff2), url("../fonts/Larsseit/Larsseit-ExtraBold.woff") format(woff);
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit/Larsseit-Medium.woff2") format(woff2), url("../fonts/Larsseit/Larsseit-Medium.woff") format(woff);
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+/* --------- ОБНУЛЕННЯ СТИЛІВ ТЕГІВ ------------ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+body {
+	line-height: 1;
+}
+/* ----------------------------------------------- */
+
+body {
+	font-family: Roboto;
+}
+
+h1 {
+	font-weight: 900;
+}
+
+.content h2 {
+	font-weight: 700;
+}
+
+main h2 {
+	font-weight: 700;
+}
+
+a {
+	color: blue;
+}
+
+.paragraph__1 h2 {
+	color: blueviolet;
+}
+
+.paragraph__1 p {
+	color: yellow;
+}
+
+.paragraph__1 ul {
+	color: green;
+}
+
+.history p {
+	color: greenyellow;
+}
+
+.description,
+.type {
+	color: red;
+}
+
+.history {
+	font-family: "Lato";
+	font-weight: 700;
+}
+
+.description {
+	font-family: "Larsseit";
+	font-weight: 700;
+}
